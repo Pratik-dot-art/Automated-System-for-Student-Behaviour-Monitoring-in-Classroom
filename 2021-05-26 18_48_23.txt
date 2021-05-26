@@ -1,0 +1,9 @@
+Total Number of Students Present is : 1 
+
+Present Student :
+	1. Pratik Durukkar
+
+Student activity's :
+Pratik Durukkar is Not Active
+
+
