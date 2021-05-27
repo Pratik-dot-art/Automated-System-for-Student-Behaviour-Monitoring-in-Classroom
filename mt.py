@@ -300,11 +300,11 @@ def reg2():
 	        continue
 	    for (a, y, c, h) in faces:
 	            rr = max(c, h) / 2
-	            cenx = a + w / 2
+	            cenx = a + c / 2
 	            ceny = y + h / 2
 	            nx = int(cenx - rr)
 	            ny = int(ceny - rr)
-	            nr = int(r * 2)
+	            nr = int(rr * 2)
 
 	            faceimg = image[ny:ny+nr, nx:nx+nr]
 	            lastimg = cv2.resize(faceimg, (256, 256))
